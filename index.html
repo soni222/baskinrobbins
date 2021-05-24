@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+    <html lang="ko-kr">
+    <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>배스킨라빈스</title>
+    <link rel="stylesheet" href="css/common.css" type="text/css" />
+    <link rel="stylesheet" href="css/layout.css" type="text/css" />
+    <link rel="stylesheet" href="css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
+    <script src="js/jquery-1.12.4.min.js"></script>    
+    <script type="text/javascript" src="js/script.js"></script>   
+    <link href="css/jquery.bxslider.css" rel="stylesheet"/>
+    <script src="js/jquery.bxslider.js"></script>
+
+</head>
+
+<body>
+    <div id="skipnavi">
+        <a href="#gnb">주메뉴바로가기</a>
+        <a href="#container">본문바로가기</a>
+    </div>
+    <div id="wrapper">
+        <div class="header_wrap">
+            <div class="header">
+                <div class="deth_1">
+                    <h1><a href="#">baskin robbins</a></h1>
+                    <ul class="header_mid clearfix">
+                        <li><a href="#">이달의 맛</a></li>
+                        <li><a href="#">MENU</a></li>
+                        <li><a href="#">영상성분 및 알레르기</a></li>
+                        <li><a href="#">EVENT</a></li>
+                        <li><a href="#">STORE</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                    </ul>
+                    <ul class="right_list clearfix">
+                        <li><a href="#" class="login">LOGIN</a></li>
+                        <li><a href="#" class="icon_search">검색</a></li>
+                    </ul>
+                </div>
+                <div class="gnb_wrap">
+                    <div class="animate clearfix">
+                        <div class="aside">
+                            <p>해피포인트app 설치하고 다양한 혜택을 받으세요!</p>
+                        </div>
+                        <ul class="gnb clearfix">
+                            <li class="th1">
+                                <ul>
+                                    <li>
+                                        <img src="images/img_monthly_fom.png" alt="아이스 허니버터아몬드" />
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="th1">
+                                <ul>
+                                    <li><a href="#">아이스크림</a></li>
+                                    <li><a href="#">아이스크림 케이크</a></li>
+                                    <li><a href="#">음료</a></li>
+                                    <li><a href="#">커피</a></li>
+                                    <li><a href="#">디저트</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="th1">
+                                <ul>
+                                    <li></li>
+                                </ul>
+                            </li>
+
+                            <li class="th1">
+                                <ul>
+                                    <li><a href="#">이벤트</a></li>
+                                    <li><a href="#">당첨자 발표</a></li>
+                                </ul>
+                            </li>
+                            <li class="th1">
+                                <ul>
+                                    <li><a href="#">매장찾기</a></li>
+                                    <li><a href="#">고객센터</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="th1">
+                                <ul>
+                                    <li><a href="#">공지사항</a></li>
+                                    <li><a href="#">보도자료</a></li>
+                                    <li><a href="#">채용정보</a></li>
+                                    <li><a href="#">점포개설문의</a></li>
+                                    <li><a href="#">CONTACT US</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="search">
+
+                    <table class="search_product clear">
+                        <caption class="skip">제품검색</caption>
+                       
+                        <tbody>
+                            <tr>
+                                <th><label for="search_name">제품명</label></th>
+                                <td>
+                                    <select class="search_category">
+                                        <option value="#">전체</option>
+                                        <option value="#">아이스크림</option>
+                                        <option value="#">아이스크림 케이크</option>
+                                        <option value="#">음료</option>
+                                        <option value="#">커피</option>
+                                        <option value="#">디저트</option>
+                                    </select>
+                                    <input type="text" name="search_name" id="search_name">
+                                </td>
+                                
+                                <th><label for="hashtags">해시태그</label></th>
+                                <td class="hashtags">
+                                    <input type="text" id="hashtags"><br />
+                                    <span class="tag_txt1">&middot;자주찾는 해시태그</span>
+                                    <div class="tag_txt2">
+                                        <a href="#">&#35;아이스허니버터아몬드</a>
+                                        <a href="#">&#35;퐁당허니버터아몬드케이크</a>
+                                        <a href="#">&#35;허니버터아몬드블라스트</a>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <th>알레르기 성분</th>
+                                <td class="allergie">
+                                    <ul>
+
+                                        <li><input type="checkbox" id="egg" name="radio" /><label for="egg">계란</label></li>
+
+                                        <li><input type="checkbox" id="soybean" name="radio" /><label for="soybean">대두</label></li>
+                                        <li><input type="checkbox" id="pork" name="radio" /><label for="pork">돼지고기</label></li>
+                                        <li><input type="checkbox" id="peanut" name="radio" /><label for="peanut">땅콩</label></li>
+                                        <li class="clear"><input type="checkbox" id="grain" name="radio" /><label for="grain">밀</label></li>
+                                        <li><input type="checkbox" id="peach" name="radio" /><label for="peach">복숭아</label></li>
+                                        <li><input type="checkbox" id="milk" name="radio" /><label for="milk">우유</label></li>
+                                        <li><input type="checkbox" id="none" name="radio" /><label for="none">없음</label></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        
+
+                        </tbody>
+
+                    </table>
+
+                    <div class="submit">
+                        <a href="#">검색</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container_wrap">
+            <div class="visual_wrap">
+                <h3 class="skip">메인메뉴</h3>
+          
+                <ul class="visual bxslider clearfix">
+                    <li>
+                        <a href="#"><img src="images/img_visual1.png" alt="hashtag event 인스타그램에 사진을 올려주세요! #아이스허니버터아몬드 기간:3월1일(월)~3월31일(수)" /></a>
+                    </li>
+
+                    <li>
+                        <a href="#"><img src="images/img_visual2.png" alt="배스킨라빈스 무신사 리미티드 에디션 무신사 스탠다드 크루삭스 3,900원 쿼터(15,500원)이상 구매 시 2월9일(화)부터 소진 시 종료" /></a>
+                    </li>
+
+                    <li>
+                        <a href="#"><img src="images/img_visual3.png" alt="현대카드 mpoint 50%사용 행사기간:매월25일" /></a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="content_wrap">
+                <h3 class="skip">메인메뉴</h3>
+                <div class="content_01">
+                    <div class="event">
+                        <h2><span class="article_tit">NEW&amp;EVENT</span></h2>
+                        <ul class="event_list on clearfix">
+                            <li>
+                                <a href="#">
+                                    <div class="event_img">
+                                        <img src="images/img_event1.png" alt="hashtag event 아이스 허니버터 아몬드 사진을 인스타그램에 올려주세요" />
+                                    </div>
+                                    <div class="event_text">
+                                        <img src="images/stit_online.gif" alt="online event" alt="online event" />
+                                        <span class="event_tit">3월 이달의맛 인스타그램에 사진을 올려주세요!</span>
+                                        <span class="event_date">2021-01-01~2021-03-31</span>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <div class="event_img">
+                                        <img src="images/img_event2.png" alt="pinkbird 이달의 제품 포함 파인트 3회 정기구독권 20%off 2021.03.01~03.07" />
+                                    </div>
+                                    <div class="event_text">
+                                        <img src="images/stit_happypoint.gif" alt="online event" />
+                                        <span class="event_tit">이달의 제품 포함 파인트3회 정기구독권 20%할인!</span>
+                                        <span class="event_date">2021-03-01~2021-03-07</span>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <div class="event_img">
+                                        <img src="images/img_event3.png" alt="배스킨라빈스 무신사 리미티드 에디션 무신사 스탠다드 크루삭스 3,900원" />
+                                    </div>
+                                    <div class="event_text">
+                                        <img src="images/stit_happypoint.gif" alt="online event" />
+                                        <span class="event_tit">무신사 스탠다드 크루 삭스3,900!</span>
+                                        <span class="event_date">2021-02-09~소진 시까지</span>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <div class="event_img">
+                                        <img src="images/img_event4.png" alt="스탬프 적립 이벤트 dessert 5+1 디저트 5개 구매 시, 아이스 모찌 1개 무료 증정!" />
+                                    </div>
+                                    <div class="event_text">
+                                        <img src="images/stit_store.gif" alt="online event" />
+                                        <span class="event_tit">디저트 5개 구매 시, 아이스 모찌 1개 무료 증정!</span>
+                                        <span class="event_date">2021-01-13~2021-03-31</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="event_list clearfix">
+                            <li>
+                                <a href="#">
+                                    <div class="event_img">
+                                        <img src="images/img_event5.jpg" alt="hashtag event 아이스 허니버터 아몬드 사진을 인스타그램에 올려주세요" />
+                                    </div>
+                                    <div class="event_text">
+                                        <img src="images/stit_online.gif" alt="online event" alt="online event" />
+                                        <span class="event_tit">4월 이달의맛 인스타그램에 사진을 올려주세요!!</span>
+                                        <span class="event_date">2021-04-01~2021-04-31</span>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <div class="event_img">
+                                        <img src="images/img_event6.jpg" alt="4월 해피데이, 오늘의 음료 1+1" />
+                                    </div>
+                                    <div class="event_text">
+                                        <img src="images/stit_happypoint.gif" alt="online event" />
+                                        <span class="event_tit">4월 해피데이, 오늘의 음료 1+1</span>
+                                        <span class="event_date">2021-04-19~2021-04-23</span>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <div class="event_img">
+                                        <img src="images/img_event7.jpg" alt="먼저 맛보는 이달의 맛! 구독 서비스 핑크버드!" />
+                                    </div>
+                                    <div class="event_text">
+                                        <img src="images/stit_happypoint.gif" alt="online event" />
+                                        <span class="event_tit">먼저 맛보는 이달의 맛! 구독 서비스 핑크버드!</span>
+                                        <span class="event_date">2021-02-22~2021-04-27</span>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <div class="event_img">
+                                        <img src="images/img_event8.png" alt="쿼터 이상 구매시, 위베어베어스 푹컵 13,000원에 구매 가능! (3종 중 택1)" />
+                                    </div>
+                                    <div class="event_text">
+                                        <img src="images/stit_store.gif" alt="online event" />
+                                        <span class="event_tit">쿼터 이상 구매시, 위베어베어스 푹컵 13,000원에 구매 가능! (3종 중 택1)</span>
+                                        <span class="event_date">2021-04-23~소진 시까지</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="event_list clearfix">
+                            <li>
+                                <a href="#">
+                                    <div class="event_img">
+                                        <img src="images/img_event9.jpg" alt="KT 멤버십 고객이라면 누구나 파인트 30% 할인!" />
+                                    </div>
+                                    <div class="event_text">
+                                        <img src="images/stit_store.gif" alt="online event" alt="online event" />
+                                        <span class="event_tit">KT 멤버십 고객이라면 누구나 파인트 30% 할인!</span>
+                                        <span class="event_date">상시진행</span>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <div class="event_img">
+                                        <img src="images/img_event10.png" alt="제휴 할인 카드 혜택 안내" />
+                                    </div>
+                                    <div class="event_text">
+                                        <img src="images/stit_happypoint.gif" alt="online event" />
+                                        <span class="event_tit">제휴 할인 카드 혜택 안내</span>
+                                        <span class="event_date">상시진행</span>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <div class="event_img">
+                                        <img src="images/img_event11.png" alt="1회용 컵 사용 줄이기 안내" />
+                                    </div>
+                                    <div class="event_text">
+                                        <img src="images/stit_happypoint.gif" alt="online event" />
+                                        <span class="event_tit">1회용 컵 사용 줄이기 안내</span>
+                                        <span class="event_date">상시진행</span>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <div class="event_img">
+                                        <img src="images/img_event12.png" alt="2018 한글날 기념 무료 글꼴 공개! 배스킨라빈스체" />
+                                    </div>
+                                    <div class="event_text">
+                                        <img src="images/stit_store.gif" alt="online event" />
+                                        <span class="event_tit">2018 한글날 기념 무료 글꼴 공개! 배스킨라빈스체</span>
+                                        <span class="event_date">상시진행</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                          <ul class="event_btn">
+                    <li><a href="#" class="on"><span>1</span></a></li>
+                    <li><a href="#"><span>2</span></a></li>
+                        <li><a href="#"><span>3</span></a></li>
+                          </ul>
+                    </div>
+
+                </div>
+                <div class="content_02 cleafix">
+                    <div class="menu">
+                        <h2><span class="article_tit">BR MENU</span></h2>
+                        <div class="menu_list">
+                            <div class="menu1">
+                                <ul>
+                                    <li>
+
+                                        <a href="#">
+                                            <i class="circle"></i>
+                                            <img src="images/img_menu1.png" alt="아이스크림" />
+                                            <span class="menu_tit">ICECREAM</span></a> <br />
+                                        <span class="menu_txt">아이스크림의 기준 배스킨라빈스</span>
+
+                                    </li>
+
+                                    <li>
+                                        <a href="#">
+                                            <i class="circle"></i>
+                                            <img src="images/img_menu2.png" alt="아이스크림케이크" />
+                                            <span class="menu_tit">ICECREAM CAKE</span></a><br />
+                                        <span class="menu_txt">아이와 어른이 좋아하는 아이스크림을 하나의 케이크에서 모두 즐기세요</span>
+
+                                    </li>
+
+                                    <li>
+                                        <a href="#">
+                                            <i class="circle"></i>
+                                            <img src="images/img_menu3.png" alt="커피" />
+
+                                            <span class="menu_tit">COFFEE</span></a><br />
+                                        <span class="menu_txt">배스킨라빈스만의 부드러운 촉감과 달콤한 풍미</span>
+
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="menu2">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="circle"></i>
+                                            <img src="images/img_menu4.png" alt="디저트" />
+                                            <span class="menu_tit">DESSERT</span></a><br />
+                                        <span class="menu_txt">아이스크림을 더욱 재미있게!간편하게 즐기는 방법!</span>
+
+                                    </li>
+
+                                    <li>
+                                        <a href="#">
+                                            <i class="circle"></i>
+                                            <img src="images/img_menu5.png" alt="음료" />
+
+                                            <span class="menu_tit">BEVEREGE</span></a><br />
+                                        <span class="menu_txt">아이스크림으로 즐기는 배스킨라빈스만의 음료</span>
+
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content_03 clearfix">
+                    <h2 class="skip">order&amp;</h2>
+                    <div class="order">
+                        <a href="#"><span>해피오더&amp;딜리버리 내 손안의 베스킨라빈스! 이제 모바일에서 빠르고 간편하게 주문해보세요!</span>
+                        <span class="order_img"></span></a>
+
+                    </div>
+                    <div class="store">
+                          <a href="#">
+                        <span>매장찾기 내 주변 가장 가까운 베스킨라빈스 매장을 찾아보세요!</span>
+                              <span class="store_img"></span></a>
+
+                    </div>
+                </div>
+
+                <div class="content_04">
+                    <div class="sns">
+                        <h2><span class="article_tit">BASKINROBBINS SNS</span></h2>
+                        <ul class="sns_list clearfix">
+                            <li  class="sns1"><a href="#">facebook</a></li>
+                            <li  class="sns2"><a href="#">twitter</a></li>
+                            <li  class="sns3"><a href="#">blog</a></li>
+                            <li  class="sns4"><a href="#">instagram</a></li>
+                            <li  class="sns5"><a href="#">youtube</a></li>
+                        </ul>
+                        <div class="sns_slide">
+                        <ul class="sns_img">
+                            <li><a href="#"><img src="images/img_sns1.jpg" alt="끼리 아이스치즈케이크" /></a></li>
+                            <li><a href="#"><img src="images/img_sns2.jpg" alt="배스킨라빈스 디저트" /></a></li>
+                            <li><a href="#"><img src="images/img_sns3.jpg" alt="아이스모찌 디저트" /></a></li>
+                            <li><a href="#"><img src="images/img_sns4.jpg" alt="아이스모찌 디저트" /></a></li>
+                            <li><a href="#"><img src="images/img_sns5.jpg" alt="배스킨라빈스 new패키지" /></a></li>
+                            <li><a href="#"><img src="images/img_sns6.jpg" alt="2월 이달의 맛 아이스밀카초콜릿"/></a></li>
+                            <li><a href="#"><img src="images/img_sns7.jpg" alt="아이스밀카블라스트" /></a></li>
+                            <li><a href="#"><img src="images/img_sns8.jpg" alt="누가봐도밀카초콜릿케이크" /></a></li>
+                            <li><a href="#"><img src="images/img_sns9.jpg" alt="블록팩" /></a></li>
+                            <li><a href="#"><img src="images/img_sns10.jpg" alt="아이스밀카초콜릿" /></a></li>
+
+                        </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer_wrap clearfix">
+            <div class="footer">
+            <ul class="footer_menu">
+                <li><a href="#">점포개설문의</a></li>
+                <li><a href="#">채용문의</a></li>
+                <li><a href="#">윤리신고센터</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">영상정보처리기기운영관리방침</a></li>
+                <li><a href="#">거래희망회사사전등록</a></li>
+            </ul>
+
+            <ul class="family_site">
+                <li><a href="#" class="site_map"><span>FAMILY SITE</span></a>
+                    <ul class="site_more">
+                        <li><a href="#">던킨도너츠</a></li>
+                        <li><a href="#">파리바게트</a></li>
+                        <li><a href="#">삼립</a></li>
+                        <li><a href="#">파스쿠찌</a></li>
+                        <li><a href="#">해포인트카드</a></li>
+                        <li><a href="#">BR코리아</a></li>
+                        <li><a href="#">SPC MAGAZINE</a></li>
+                        <li><a href="#">SPC그룹사이트</a></li>
+                        <li><a href="#">배스킨스쿨</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="banner">
+                <li><a href="#"><img src="images/btn_happypoint.png" alt="happy point" /></a></li>
+                <li><a href="#"><img src="images/btn_happymarket.png" alt="happy market" /></a></li>
+                <li><a href="#"><img src="images/btn_spc_story.png" alt="spc그룹 사회공헌활동 spc행복한 이야기" /></a></li>
+                <li><a href="#"><img src="images/btn_norton.gif" alt="norton secured" /></a></li>
+                <li><a href="#"><img src="images/btn_ccm.gif" alt="ccm" /></a></li>
+                <li><a href="#"><img src="images/btn_ksa.png" alt="국가품질상 ksa 한국표준협회" /></a></li>
+            </ul>
+            <h2><img src="images/footer_logo.png" alt="baskin robbins" /></h2>
+
+            <div class="footer_txt">
+                <div class="txt1">
+                    <span>사업자 등록번호 : 303-81-09535</span>
+                    <span>비알코리아(주) 대표이사 김창대</span>
+                    <address>서울특별시 서초구 나부순환로 2620(양재동 11-149번지)</address>
+                </div>
+                <div class="txt2">
+                    <span>TEL:080-555-3131</span>
+                    <span>개인정보관리책임자:김경우</span>
+                </div>
+                <span class="copyright">Copyright ⓒ 2016 BRKOREA Company. All Rights Reserved.</span>
+            </div>
+
+
+
+</div>
+
+        </div>
+    </div>
+</body>
+</html>

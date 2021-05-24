@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+#wrapper{width:100%;position: relative;min-width: 1240px;}
+html{overflow-x: hidden;}
+.header_wrap{width: 100%; margin: 0 auto;min-width: 1240px;}
+.header{border-bottom: 1px solid #d9d9d9;}
+
+.header .deth_1{width:1240px; height: 140px;margin: 0 auto;box-sizing: border-box;position: relative;}
+.header h1{background:url(../images/header_logo.png) no-repeat 0 10px;width:92px;height: 92px;float: left;margin:20px 43px;display: block;text-indent: -9999em;}
+.header .deth_1 .header_mid{line-height: 190px;}
+.header .header_mid li{float: left;font-size: 18px;font-weight: 600;display: inline-block;width:177px;text-align: center;}
+.header .header_mid > li > a{color:#483834;letter-spacing:1px }
+
+.header .right_list{position: absolute;top:15px;right: 50px}
+.header .right_list li{float: left;}
+.header .right_list .login{color:#ff699b;font-size: 18px;font-weight: 600;margin:5px 15px 0 0;display: block;line-height: 2}
+.header .right_list .icon_search{background:url(../images/icon_serach.png) no-repeat center ;font-size: 0;width:38px;height: 38px;display: block;border-radius: 10%;border:2px solid #d9d9d9;}
+.header .right_list .icon_search.on{background:url(../images/icon_cancle.png) no-repeat center}
+
+.gnb_wrap{min-width: 100%;border-bottom:  1px solid #d9d9d9;position: absolute;top:141px;left:0;box-sizing: border-box;z-index:99;display: none;background-color:#fff;}
+.animate{width: 1240px;margin:0 auto;position: relative;padding-top:20px;background-color: #fff;height: 235px;display: block;box-sizing: border-box;}
+.aside{float: left;background:url(../images/img_happypoint_app.jpg) no-repeat;width:177px;height: 126px;font-size: 0;margin-top: 35px;}
+
+
+
+.gnb .th1{float: left;height: 200px;display: block;width:177px;}
+
+.gnb .th1 li{display:block;text-align: center;}
+.gnb .th1 a{font-size: 16px;line-height: 2.5;color:#666666;}
+
+
+.search{width:100%;border-bottom: 1px solid #d9d9d9;box-sizing: border-box;padding-top:10px;min-width: 1240px;height: 310px;position: absolute;top:141px;z-index: 99;background-color: #fff;box-sizing: border-box;display: none;}
+.search.on{display: block;}
+.search_product{width:1240px;margin:0 auto;border-collapse: collapse;box-sizing: border-box;position: relative;}
+
+.search_product tr{float: left;box-sizing: border-box;margin-bottom: 20px;width: 1240px;position: relative;}
+.search_product td{vertical-align: top;width:450px;}
+.search_product th{font-size:18px;width: 140px;font-weight: 400;text-align: left;vertical-align: top;}
+.search_product input{height:30px;border:none;background-color:#efefef;padding: 5px 10px;box-sizing: border-box;}
+
+.search_product .search_category{height:30px;border:1px solid #d9d9d9;box-sizing: border-box;margin-right: 10px;color: #666666;}
+
+.search_product .allergie li{float:left;font-size: 16px;width: 80px;margin-right: 10px;color: #666666;}
+.search_product .allergie input{margin-right: 5px;width:15px;}
+
+
+
+.hashtags input{width:450px;box-sizing: border-box;}
+.tag_txt1{font-size: 14px;color: #666666;line-height: 2;}
+.hashtags .tag_txt2 a{font-size: 14px;color:#ff7c98;}
+
+.submit{border-radius: 18px;background-color: #ff7c98;width:100px;height: 35px;text-align: center;line-height: 35px;position: absolute;left:50%;transform: translateX(-50%)}
+.search .submit a{color:#fff;}
+
+
+.footer_wrap{position: relative;padding: 50px 0;width: 100%;border-top:1px solid #ff7c98;text-align: center;min-width: 1240px;}
+.footer{width:1240px;position: relative;margin:0 auto}
+
+.footer_menu{display: inline-block;}
+.footer_menu li{float: left;font-size: 16px;margin-right: 15px;line-height: 40px}
+.footer_menu li a{color:#666666;}
+
+.family_site{float: left;line-height: 2;text-align: center;font-size: 16px;position: absolute;right:0px;top:0px;}
+
+.family_site li{width:165px;height: 35px;;display: block;box-sizing: border-box;}
+.site_map{background-color:#eb6d85;display: block;height: 40px;text-align: left;padding-left: 15px;line-height: 40px;}
+.site_map span{color:#fff;letter-spacing: 0.05em;background:url(../images/footer_arrow.png) no-repeat center right;padding-right: 30px;}
+.site_map:after{background:url(../images/footer_arrow.png) no-repeat ;width:12px;height: 7px;}
+.site_more{border: 1px solid #d9d9d9;box-sizing: border-box;display: none;}
+.site_more > li > a{display: block;}
+.site_more.open{display: block;}
+
+.banner{display: inline-block;}
+.banner li{float: left;margin: 20px 20px 20px 0;display: inline-block;}
+.footer_wrap h2{text-align: center;margin-bottom: 20px}
+
+.footer_txt{text-align: center;color:#666666;}
+.footer_txt address{font-style: normal;}
+.footer_txt .txt2{margin-bottom: 20px;}
+
